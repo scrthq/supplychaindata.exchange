@@ -9,6 +9,7 @@
     "longitude": "0.0"
   },
   "address": {
-   "full_address": "123 Null Street Nullville, NV Null Island"
+   "full_address": "123 Null Street Nullville, NV Null Island",
+   "country": "Null Island"
   }
 }
