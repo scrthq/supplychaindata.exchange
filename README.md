@@ -13,7 +13,8 @@
 
 <ul>
   <li>Core Specification</li>
-  <li>List of Extensions/Guide to Creating Extensions</li>
+  <li><a href="extensions.md">List of Extensions</a></li>
+  <li>Guide to Creating Extensions</li>
   <li>Blog Posts: Introduction, Data Standards Mapping, Public Policy, Governance</li>
   <li>Expert Interview Series</li>
 </ul>
