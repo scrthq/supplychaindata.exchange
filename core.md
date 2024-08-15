@@ -1,39 +1,27 @@
 # Core Data Schema Specification
 
-This specification outlines the minimum viable core data schema for the SC DEX. There are five major components of this core data schema: 
+This specification outlines the minimum viable core data schema for the SC DEX. There are two main components of this core data schema: 
 
-Notes:
-Two object types
-- supply chain location (where it happens)
-- ownership (who's accountable)
-- key value pair? OSID: # LEI: #
+1. Location Data: where is this located in the world, geospatially? 
+2. Organization Data: who is accountable for this location, either legally or financially?
 
-What's the connective tissue between these two? 
-- schema.org/identifier (look at the brand connection, probably could use IDs)
+We lead with the Location Data because there are a finite number of 
 
-- A geospatial data identifier containing location, field boundary, or other data standard related to where something physically exists 
-- A data type for the geospatial data, categorizing it as a production location, headquarters or office, etc.
-- An abstract identifier containing information about the ownership or accountability for the geospatial data identified
+These key value pairings might look like: 
 
---
-metadata
-- A data issuer identifier
-- A timestamp (submission automatic, for what?)
+The official list of supported key value pairings can be found in [Approved Core Scheme Key Value Pairings] and you can submit new key value pairings through [an issue] or through this [Google Form]. It will then be reviewed on a bi-weekly basis and commented on if there are any issues. 
 
-This list constitutes a "knowledge object" within the standard and is the unit level data packet that can be exchanged.
+Key value pairings are ranked as "recommended", "usable", and "not recommended" in order to maximize accessibility and usability across supply chain data standards. We consider these rankings with the following criteria: 
+
+| Ranking | Usability Metric | Adoption Metric |
+| ----- | ----------- | ----------- |
+|Recommended| free and open to use | commonly used |
+|Useable| not free and open to use | commonly used |
+|Not Recommended| not free and open to use | not commonly used |
+
+We also recomment collecting metadata in order to do verification of the knowledge object, and this might include
+- A data issuer identifier, in order to follow up with the validity of the data
+- A timestamp, in order to keep track of version history
 
 > [!NOTE]
 > The Core Specification is still work in progress. Feedback is welcome!
-
-## Schema
-
-The following keywords are generally supported:
-
-- `physicalid`: The [SC DEX geospatial data standards](physicaldatastandards.md) as a string, **required**.
-- `type`: The [SC DEX data types](datatypes.md) as a string, **required**.
-- `cyberid`: The [SC DEX abstract data standards](cyberdatastandards.md) as a string, **required**.
-- `contribid`: a unique identifier for each data contributor, **required**.
-- `timestamp`: time of submission, **required**.
-- `description`: any additional notes.
-
-Speaking between two platforms, which IDs does this one have vs this one? 
