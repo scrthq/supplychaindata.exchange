@@ -23,7 +23,7 @@
 <p>Want to build an extension? Propose a change to the core data schema? Have ideas for use cases or pilots and want help getting started? We're building this in the open in order to maximize usefulness and adoption by all global supply chains stakeholders. You can find resources to join the community of contributors, share about this work, or the shape the future development roadmap at these links below:</p>
 
 <ul>
-  <li>Slack Group</li>
+  <li><a href="https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g">Slack Group</a></li>
   <li>Open Letter of Commitment</li>
   <li>Contribution Guideline</li>
   <li>Future Development Roadmap</li>
