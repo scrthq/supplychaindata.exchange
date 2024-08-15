@@ -1,5 +1,8 @@
 # Core Data Schema Specification
 
+> [!NOTE]
+> The Core Specification is still work in progress. Feedback is welcome!
+
 This specification outlines the minimum viable core data schema for the SC DEX. There are two main components of this core data schema: 
 
 1. Location Data: where is this located in the world, geospatially? 
@@ -22,6 +25,3 @@ Key value pairings are ranked as "recommended", "usable", and "not recommended" 
 We also recomment collecting metadata in order to do verification of the knowledge object, and this might include
 - A data issuer identifier, in order to follow up with the validity of the data
 - A timestamp, in order to keep track of version history
-
-> [!NOTE]
-> The Core Specification is still work in progress. Feedback is welcome!
