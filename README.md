@@ -13,7 +13,7 @@
 
 <ul>
   <li>Core Specification</li>
-  <li><a href="extensions.md">List of Extensions</a></li>
+  <li><a href="https://github.com/opensupplyhub/supplychaindata.exchange.schema/tree/main/examples">List of Extensions</a></li>
   <li><a href="extensions.md">Guide to Creating Extensions</a></li>
   <li>Blog Posts: Introduction, Data Standards Mapping, Public Policy, Governance</li>
   <li>Expert Interview Series</li>
