@@ -17,6 +17,7 @@ This page is in flux at the moment, <a href="https://docs.google.com/spreadsheet
 | name | text or URL | optional      | the name of the location|
 | coordinates | number or text | optional      | the geocoordinates of the location|
 | address | postalAddress or text | optional      | the address of the location|
+| affiliation-type | text | 1 of the IDs is required | the type of affliation to location, or to other locations.|
 
 _The Location schema of the SCDEX is meant to identify where a supply chains location is physically, and the name, coordinates and/or address properties are optional fields with the intention that this information is already captured within the location-identifiers property. This is meant to build the SCDEX data ecosystem on top of existing supply chain data standards and map the relationships between already established reporting formats, as well as allow for linking different types of geospatial data, for example a point location of a factory (os-id or gln) with a region (field-id). A list of accepted and recommented location-identifiers is in progress._
 
