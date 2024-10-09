@@ -21,7 +21,7 @@ _The Location schema of the SCDEX is meant to identify where a supply chains loc
 | name | text or URL | optional      | the name of the location|
 | coordinates | number or text | optional      | the geocoordinates of the location|
 | address | postalAddress or text | optional      | the address of the location|
-| affiliation-type | text | 1 of the IDs is required | the type of affliation to location, or to other locations.|
+| affiliation-type | text | required | the type of affliation to location, or to other locations.|
 
 <h2>Organization Schema</h2>
 
@@ -35,5 +35,5 @@ _The Organization schema of the SCDEX is meant to identify the relationship of t
 | lei | text or URL | 1 of the IDs is required | an identifier for legal entities provided by GLIEF|
 | gln | text or URL | 1 of the IDs is required | a location identifier provided by GS1|
 | organization-identifier | text or URL | 1 of the IDs is required | other organization identifiers similar to lei or gln, contains name and other registration information|
-| affiliation-type | text | 1 of the IDs is required | the type of affliation to location, or to other organizations. This might look like ownership, tax, supplier, shipping, etc|
+| affiliation-type | text | required | the type of affliation to location, or to other organizations. This might look like ownership, tax, supplier, shipping, etc|
 
