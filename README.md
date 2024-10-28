@@ -1,36 +1,75 @@
-<h1>Supply Chain Data Exchange Standard (SC DEX) </h1>
+# **Supply Chain Data Exchange (SC-DEX)**
 
-<h2>About SC DEX</h2>
+## **About**
 
-<p><b>The SCDEX is a format for publishing information about supply chain locations and the organizations affiliated with them in machine readable JSON.</b> By establishing a standard language to define a set of objects and relationships between them, we can more efficiently and accurately model supply chains to consequently facilitate data exchange between different stakeholders and improve visibility, efficiency and decision making.</p>
+The **Supply Chain Data Exchange Standard (SC-DEX)** is an open, machine-readable data exchange standard designed to enable transparent, interoperable, and scalable sharing of supply chain data. The SC-DEX standard provides a flexible format that can be adopted across various industries and sectors, allowing stakeholders to publish, exchange, store and use supply chain data in a standardized way. By utilizing standardized **Location IDs**, **Organizational IDs**, and **Relationship Types**, SC-DEX ensures interoperability between systems, enabling greater transparency, due diligence, and regulatory compliance. As a global and open data exchange standard, the SC-DEX is intended to enables the implementation of new due diligence directives such as the CSDDD, CSDR, and HRDD, and ensures that reporting of and research on supply chains data remains accessible and non-duplicative for both civil society organizations, corporations, policy implementors and auditors, and suppliers alike.
 
-<p>The Supply Chain Data Exchange Standard is intended to be global and open data exchange standard that enables the implementation of  new due diligence directives such as the CSDDD, CSDR, and HRDD, and ensures that reporting of and research on supply chains data remains accessible and non-duplicative for both civil society organizations, corporations, policy implementors and auditors, and suppliers alike.</p>
+SC-DEX is currently in an **open public review phase** from October 31, 2024 onwards for:
+- [Governance Model](https://docs.google.com/document/d/1m4GJPTr-9cg9yE2G0cyFhhNl5qFRK6j8phr9oVKKgg4/edit)
+- [Technical Standard Core Schema](https://github.com/opensupplyhub/supplychaindata.exchange/tree/main/schema)
+- [Open Letter of Commitment](https://docs.google.com/document/d/1jRSpEStuhcdS_8SxBHLoW7PWaYlCTEtC1MLYJf_5avo/edit)
 
-<h2>Key Features</h2>
-<p>There are three main features that the supply chain data exchange standard aims to do. 1) set a core data exchange standard with enough minimum viable data identifiers for identifying a production facility and its relationship to other production facilities or organizations in the exchange 2) enable bridging to extensions custom built for organizations, sectors, or use cases and 3) create a foundational layer for eventual data exchange based on the standard.</p>
+---
 
-<p>By design, the core data schema of the SC DEX is minimal, as this allows for data contributions from all stakeholders, eventually including data inputs from areas that may be in low-connectivity or through mobile device access. Extensions are intended to be custom built and share enough data identifiers with the core data schema to enable easy bridging. The core data schema will always be kept openly accessible and governed by all contributors of the data exchange standard, while extensions can be created and maintained by anyone.</p>
+## **Key Features**
 
-<p>More information about the exchange standard, core and extension data schema, and how to contribute are available here:</p>
+By design, the core data schema of the SC DEX is minimal, as this allows for data contributions from all stakeholders, eventually including data inputs from areas that may be in low-connectivity or through mobile device access. Extensions are intended to be custom built and share enough data identifiers with the core data schema to enable easy bridging. The core data schema will always be kept openly accessible and governed by all contributors of the data exchange standard, while extensions can be created and maintained by anyone.
 
-<ul>
-  <li><a href="https://github.com/opensupplyhub/supplychaindata.exchange.schema/blob/main/schema/schema.md">Core Specification</a></li>
-  <li><a href="https://github.com/opensupplyhub/supplychaindata.exchange.schema/tree/main/examples">List of Extensions</a></li>
-  <li><a href="extensions.md">Guide to Creating Extensions</a></li>
-  <li>Blog Posts: Introduction, Data Standards Mapping, Public Policy, Governance</li>
-  <li><a href="https://open.spotify.com/show/6Wwaw6Y0FqpoAcJmnvKzf1">Expert Interview Series</a></li>
-</ul>
+There are three main features that the supply chain data exchange standard aims to do. 1) set a core data exchange standard with enough minimum viable data identifiers for identifying a production facility and its relationship to other production facilities or organizations 2) enable bridging to extensions custom built with organizations and sector data holders and stewards towards specific use cases and 3) create a foundational protocol layer for supply chains related data exchange.
+  
+- **Core Schema**: SC-DEX provides a clear, JSON-based structure for supply chain data, ensuring consistency across locations and organizational affiliations.
+    - Learn more about the [Core Schema](./wiki/Core-Schema).
+- **Extensions**: Extensions allow for additional data fields, tailoring the schema for specific use cases, such as **Responsible Recruiting** and **Sea Level Rise Risk**.
+    - Learn how to create extensions in the [Extensions page](./wiki/Extensions-for-Use-Cases).
+- **Governance**: SC-DEX is managed by a multi-stakeholder governance committee, ensuring the standard remains transparent and adaptable.
+    - Explore the [Governance Model](./wiki/Governance-Model).
 
-<h2>Joining the Data Ecosystem</h2>
-<p>Want to build an extension? Propose a change to the core data schema? Have ideas for use cases or pilots and want help getting started? We're building this in the open in order to maximize usefulness and adoption by all global supply chains stakeholders. You can find resources to join the community of contributors, share about this work, or the shape the future development roadmap at these links below:</p>
+---
 
-<ul>
-  <li><a href="https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g">Slack Group</a></li>
-  <li>Open Letter of Commitment</li>
-  <li>Contribution Guideline</li>
-  <li>Future Development Roadmap</li>
-</ul>
+## **Joining the Data Ecosystem**
 
-<p>We've love to see you in our Slack Group for general discussions, questions, and meeting the ecosystem. You'll also find specific channels that link to research, notes, and workspaces stored in this Google Drive. Our shared calendar of meetings is open to the public and will be populated with sessions for each workstream, and please sign up for general updates by following our LinkedIn page or email list.</p>
+Want to build an extension? Propose a change to the core data schema? Have ideas for use cases or pilots and want help getting started? We're building this in the open in order to maximize usefulness and adoption by all global supply chains stakeholders. We encourage organizations, developers, and supply chain professionals to participate in the growth and adoption of SC-DEX.
 
-<p>Thanks so much for being here!</p>
+### **How to Get Involved**
+- **Open Letter of Commitment**: Organizations can publicly commit to adopting SC-DEX by signing the [Open Letter of Commitment](./wiki/Open-Letter-of-Commitment).
+- **Implementation Tutorials**: Learn how to use SC-DEX’s core schema or create custom extensions for your specific use case.
+    - Visit the [Implementation Tutorials page](./wiki/Implementation-Tutorials) for step-by-step guides.
+- **Hackathon Invitation**: Participate in our hackathon in January 2025, organized in collaboration with IEEE, where developers can build new extensions and tools.
+    - Learn more by reviewing the [Hackathon one-pager](https://docs.google.com/document/d/1IRwKWZGFK8UZV21PYrqWcKy0JQi__W-A4MKd7MVd62w/edit).
+
+For more information on the development process, see the [Development Process page](./wiki/Development-Process).
+
+---
+
+## **Development Process and Roadmap**
+
+SC-DEX has been developed through a multi-stakeholder, collaborative approach involving various convenings and public work sessions. Key milestones include:
+- **2023**: Dhaka convening established the basic data model for SC-DEX.
+- **2024**: First technical draft (V0) published in August, with V1 published in October after public feedback sessions.
+- **2025 Roadmap**: Focuses on scaling adoption with a goal of **25 organizations committed** and **10 organizations actively implementing** SC-DEX.
+
+To learn more, visit the [Roadmap page](./wiki/Roadmap).
+
+---
+
+## **Contribute**
+
+We invite contributions from organizations and developers who are aligned with SC-DEX’s mission of supply chain transparency and standardization. Your expertise can help us improve the standard, build tools, or launch pilots that demonstrate its impact.
+
+### **How to Get Involved**
+- **Join the Mailing List & Share**: [Landing Page](https://supplychaindata.exchange/)
+- **Join our Slack community**: [Slack Invite](https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g)
+- **Sign up for the mailing list**: [Mailing List](https://supplychaindata.exchange/)
+- **Attend public sessions**: [Public Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mZDRkNWE3OTZlZDlhYTEwOTEwYWYxMGZhYWVkMDkyNDdjY2FjNzEzZWY5Yjc3Y2Y0ZDc4NzRkYjIwMzA0Mzk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+- **Listen to expert interviews**: [Expert Interview Podseries](https://open.spotify.com/show/6Wwaw6Y0FqpoAcJmnvKzf1)
+- **Follow us on LinkedIn**: [SC-DEX LinkedIn](https://www.linkedin.com/showcase/supply-chain-data-exchange/)
+
+---
+
+## **Troubleshooting and FAQ**
+
+For frequently asked questions, visit the [FAQ and Troubleshooting page](./wiki/FAQ-and-Troubleshooting). For live support, join our [Slack community](https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g), schedule a [1:1 call](https://calendar.app.google/UYyr5qPvNd3RLn5K6), or email [shuya@opensupplyhub.org](mailto:shuya@opensupplyhub.org).
+
+---
+
+## Thanks so much for being here!
