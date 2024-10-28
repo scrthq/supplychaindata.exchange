@@ -18,11 +18,11 @@ By design, the core data schema of the SC DEX is minimal, as this allows for dat
 There are three main features that the supply chain data exchange standard aims to do. 1) set a core data exchange standard with enough minimum viable data identifiers for identifying a production facility and its relationship to other production facilities or organizations 2) enable bridging to extensions custom built with organizations and sector data holders and stewards towards specific use cases and 3) create a foundational protocol layer for supply chains related data exchange.
   
 - **Core Schema**: SC-DEX provides a clear, JSON-based structure for supply chain data, ensuring consistency across locations and organizational affiliations.
-    - Learn more about the [Core Schema](./wiki/Core-Schema).
+    - Learn more about the [Core Schema](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/1.-Core-Schema).
 - **Extensions**: Extensions allow for additional data fields, tailoring the schema for specific use cases, such as **Responsible Recruiting** and **Sea Level Rise Risk**.
-    - Learn how to create extensions in the [Extensions page](./wiki/Extensions-for-Use-Cases).
+    - Learn how to create extensions in the [Extensions page](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/2.-Extensions-for-Use-Cases).
 - **Governance**: SC-DEX is managed by a multi-stakeholder governance committee, ensuring the standard remains transparent and adaptable.
-    - Explore the [Governance Model](./wiki/Governance-Model).
+    - Explore the [Governance Model](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/3.-Governance-Model).
 
 ---
 
@@ -31,24 +31,24 @@ There are three main features that the supply chain data exchange standard aims 
 Want to build an extension? Propose a change to the core data schema? Have ideas for use cases or pilots and want help getting started? We're building this in the open in order to maximize usefulness and adoption by all global supply chains stakeholders. We encourage organizations, developers, and supply chain professionals to participate in the growth and adoption of SC-DEX.
 
 ### **How to Get Involved**
-- **Open Letter of Commitment**: Organizations can publicly commit to adopting SC-DEX by signing the [Open Letter of Commitment](./wiki/Open-Letter-of-Commitment).
+- **Open Letter of Commitment**: Organizations can publicly commit to adopting SC-DEX by signing the [Open Letter of Commitment](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/5.-Open-Letter-of-Commitment).
 - **Implementation Tutorials**: Learn how to use SC-DEX’s core schema or create custom extensions for your specific use case.
-    - Visit the [Implementation Tutorials page](./wiki/Implementation-Tutorials) for step-by-step guides.
+    - Visit the [Implementation Tutorials page](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/7.-Implementation-Tutorials) for step-by-step guides.
 - **Hackathon Invitation**: Participate in our hackathon in January 2025, organized in collaboration with IEEE, where developers can build new extensions and tools.
     - Learn more by reviewing the [Hackathon one-pager](https://docs.google.com/document/d/1IRwKWZGFK8UZV21PYrqWcKy0JQi__W-A4MKd7MVd62w/edit).
 
-For more information on the development process, see the [Development Process page](./wiki/Development-Process).
+For more information on the development process, see the [Development Process page](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/4.-Development-Process).
 
 ---
 
 ## **Development Process and Roadmap**
 
 SC-DEX has been developed through a multi-stakeholder, collaborative approach involving various convenings and public work sessions. Key milestones include:
-- **2023**: Dhaka convening established the basic data model for SC-DEX.
-- **2024**: First technical draft (V0) published in August, with V1 published in October after public feedback sessions.
+- **2023**: Dhaka convening established the basic data model for SC-DEX, through a collaboration between Open Supply Hub, Mapped In Bangladesh, and WikiRate
+- **2024**: Convening of 15+ organizations with representation from civil society organization, reporting groups, and data holders and stewards in January. First technical draft (V0) published in August, with V1 published in October after public feedback sessions and multistakeholder interviews and advisory sessions with over 30 organizations.
 - **2025 Roadmap**: Focuses on scaling adoption with a goal of **25 organizations committed** and **10 organizations actively implementing** SC-DEX.
 
-To learn more, visit the [Roadmap page](./wiki/Roadmap).
+To learn more, visit the [Roadmap page](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/6.-Future-Roadmap).
 
 ---
 
