@@ -1,6 +1,11 @@
 ## **Technical Schema Structure**
 
-The SC-DEX schema can support different supply chain arrangements. Below are three examples of entity-relationship diagrams showing how locations, organizations, and affiliations interact in various supply chain scenarios.
+The SC-DEX schema can support different supply chain arrangements, including multiple locations, organizations, and their various affiliations to each other to represent data assets.
+
+- The JSON format template can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/schema/schema.json)
+- The core schema description can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/schema/schema.md) 
+
+Below are three examples of entity-relationship diagrams showing how locations, organizations, and affiliations interact in various supply chain scenarios.
 
 ### **1. Simple Supply Chain (Single-Tier)**
 
