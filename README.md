@@ -46,7 +46,24 @@ For more information on the development process, see the [Development Process pa
 SC-DEX has been developed through a multi-stakeholder, collaborative approach involving various convenings and public work sessions. Key milestones include:
 - **2023**: Dhaka convening established the basic data model for SC-DEX, through a collaboration between Open Supply Hub, Mapped In Bangladesh, and WikiRate
 - **2024**: Convening of 15+ organizations with representation from civil society organization, reporting groups, and data holders and stewards in January. First technical draft (V0) published in August, with V1 published in October after public feedback sessions and multistakeholder interviews and advisory sessions with over 30 organizations.
-- **2025 Roadmap**: Focuses on scaling adoption with a goal of **25 organizations committed** and **10 organizations actively implementing** SC-DEX.
+- **2025**: Focuses on scaling adoption with a goal of **25 organizations committed** and **10 organizations actively implementing** SC-DEX.
+
+### Immediate Roadmap
+**Q4 2024**
+
+- **Schema Finalization**: A comprehensive table of accepted **location identifiers** (e.g., OSID, Varda Agriculture Global Field ID), **organization identifiers** (e.g., LEI), and **relationship types** will be added to the SC-DEX documentation. These standardized identifiers will facilitate consistent and interoperable data sharing across supply chains.
+- **Public Review**: The core schema and initial extensions will undergo a public review phase. Contributions are welcome from all stakeholders, including organizations, data service providers, and civil society partners.
+- **Governance Model**: Finalize and approve the governance model, including the processes for managing future updates and extensions.
+- **Extensions**: Begin integrating specific use case extensions, including those for responsible recruiting, living wage tracking, and environmental sustainability.
+- **Pilot Programs**: Launch pilot programs with key organizations to demonstrate the practical implementation of the SC-DEX standard.
+
+---
+
+### **2025 Goals**
+
+- **Adoption**: By the end of 2025, the SC-DEX aims to have 25 organizations committed to using the standard, with 10 organizations actively exchanging data using SC-DEX.
+- **Tool Development**: Develop tools to support the implementation and adoption of SC-DEX across industries.
+- **Extensions**: Continue to develop and refine extensions based on feedback from pilot programs and public review.
 
 To learn more, visit the [Roadmap page](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/6.-Future-Roadmap).
 
