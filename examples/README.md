@@ -4,6 +4,26 @@ This page provides examples of how to implement extensions to the SC-DEX core sc
 
 ---
 
+## **How to Contribute or Submit an Extension**
+
+We encourage contributions from both technical and non-technical partners. If you are a **technical partner**, you can simply copy the JSON format provided above and customize it for your extension. For non-technical partners, or those new to JSON formatting, you can submit your extension idea through a Google Form.
+
+To submit an extension, please fill out the form with the following details:
+1. **Name and Organization**: Provide your contact details.
+2. **Extension Purpose**: Describe the purpose of the extension and its intended use case.
+3. **Potential Data Attributes**: List any relevant data fields that should be included in the extension.
+
+[Submit your extension via Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc2k_hCOzvZ2G31Z-IivRDF2c3OMVxG9HCwXXVf3oP_vxeG-A/viewform?usp=sf_link).
+
+For more details on extensions, visit our [Extensions page](../wiki/Extensions-for-Use-Cases).
+
+---
+
+To learn more about the core schema and other use cases, visit our [Core Schema page](../schema/schema.md) and [Extensions page](../wiki/Extensions-for-Use-Cases).
+These examples show how SC-DEX can be extended for specific use cases.
+
+---
+
 ## **Example Use Case: Responsible Recruiting**
 
 This extension tracks data around recruitment fees and the employment process:
@@ -43,22 +63,3 @@ This extension layers geographic data on top of the core schema to assess supply
   ]
 }
 ```
-
----
-
-## **How to Contribute or Submit an Extension**
-
-We encourage contributions from both technical and non-technical partners. If you are a **technical partner**, you can simply copy the JSON format provided above and customize it for your extension. For non-technical partners, or those new to JSON formatting, you can submit your extension idea through a Google Form.
-
-To submit an extension, please fill out the form with the following details:
-1. **Name and Organization**: Provide your contact details.
-2. **Extension Purpose**: Describe the purpose of the extension and its intended use case.
-3. **Potential Data Attributes**: List any relevant data fields that should be included in the extension.
-
-[Submit your extension via Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc2k_hCOzvZ2G31Z-IivRDF2c3OMVxG9HCwXXVf3oP_vxeG-A/viewform?usp=sf_link).
-
-For more details on extensions, visit our [Extensions page](../wiki/Extensions-for-Use-Cases).
-
----
-
-These examples show how SC-DEX can be extended for specific use cases. To learn more about the core schema and other use cases, visit our [Core Schema page](../schema/schema.md) and [Extensions page](../wiki/Extensions-for-Use-Cases).
