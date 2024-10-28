@@ -13,7 +13,7 @@ To submit an extension, please fill out the form with the following details:
 2. **Extension Purpose**: Describe the purpose of the extension and its intended use case.
 3. **Potential Data Attributes**: List any relevant data fields that should be included in the extension.
 
-[Submit your extension via Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc2k_hCOzvZ2G31Z-IivRDF2c3OMVxG9HCwXXVf3oP_vxeG-A/viewform?usp=sf_link).
+[Submit your extension idea via Google Form](https://docs.google.com/forms/d/e/1FAIpQLSc2k_hCOzvZ2G31Z-IivRDF2c3OMVxG9HCwXXVf3oP_vxeG-A/viewform?usp=sf_link).
 
 For more details on extensions, visit our [Extensions page](../wiki/Extensions-for-Use-Cases).
 
