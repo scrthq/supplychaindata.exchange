@@ -1,4 +1,3 @@
-# supplychaindata.exchange.schema
 <h1>Supply Chain Data Exchange Standard (SC DEX) </h1>
 
 <h2>About SC DEX</h2>
