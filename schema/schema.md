@@ -1,6 +1,6 @@
 
 > [!NOTE]
-> The Core Specification is still work in progress. Feedback is welcome!</a>
+> The Core Specification is still work in progress. Feedback is welcome!
 
 # **SC-DEX Core Schema Documentation**
 
@@ -41,7 +41,8 @@ Optional fields are helpful for cross referencing or appending data attributes o
 | `processing-types` | Processing activities conducted at the location    | Optional              |
 | `products`         | Products produced at the location                  | Optional              |
 
-A more complete location-identifier list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
+> [!NOTE]
+> A more complete location-identifier list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
 
 ---
 
@@ -59,7 +60,8 @@ The Organization component of the SCDEX core schema is meant to identify the rel
 | `organization-type`  | Type of organization (e.g., supplier, retailer) | Required              |
 | `organizational-identifier`  | One of the accepted organizational-identifiers is required. (i.e., Legal Entity Identifier's LEI or GS1's GLN, etc.)  | Optional |
 
-A more complete organizational-identifier list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
+> [!NOTE]
+> A more complete organizational-identifier list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
 
 ---
 
@@ -94,5 +96,6 @@ WikiRate provides an additional set of relationship types that can be referenced
 
 For more relationship types and examples, refer to the [WikiRate Relationship Types page](https://wikirate.org/Relationship).
 
-A more complete relationships type list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
+> [!NOTE]
+> A more complete relationships type list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
 
