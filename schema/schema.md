@@ -35,7 +35,8 @@ Optional fields are helpful for cross referencing or appending data attributes o
 | `guid`             | Unique identifier for the location data            | Required              |
 | `location-type`    | Type of location (e.g., factory, warehouse, farm)  | Required              |
 | `location-identifier` | One of the accepted location-identifiers is required. (i.e. Open Supply Hub’s unique location identifier (OSID), Varda Agriculture’s Global Field ID for boundaries, etc.)| Required  |
-| `coordinates`      | Latitude and longitude of the location in             | Optional             |
+| `coordinates`      | Latitude and longitude of the location in ISO 6709         | Optional             |
+| `name`         | Name of the location, if available. | Optional             |
 | `address`      | the address of the location in ISO 20022 | Optional             |
 | `country`      | the country of the location in ISO 3166 ALpha-2 or Alpha-3 | Optional             |
 | `processing-types` | Processing activities conducted at the location    | Optional              |
