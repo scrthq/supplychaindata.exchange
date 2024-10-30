@@ -88,16 +88,16 @@ Affiliations can represent various types of relationships, including but not lim
 - **is owned by**: Indicates ownership relationships between entities.
 - **provides services for**: Indicates that one entity provides services to another.
 
-## **Examples of Relationship Types from WikiRate**
+## **Examples of Relationship Types from Wikirate**
 
-WikiRate provides an additional set of relationship types that can be referenced for supply chain transparency. These relationships can include:
+Wikirate provides an additional set of relationship types that can be referenced for supply chain transparency. These relationships can include:
 
 - **is supplier of**
 - **is owned by**
 - **is subsidiary of**
 - **provides services for**
 
-For more relationship types and examples, refer to the [WikiRate Relationship Types page](https://wikirate.org/Relationship).
+For more relationship types and examples, refer to the [Wikirate Relationship Types page](https://wikirate.org/Relationship).
 
 > [!NOTE]
 > A more complete relationships type list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
