@@ -3,9 +3,9 @@
     "type": "company",
     "name": "Null Inc",
     "address": {
-        "street_name": "678 Example Street",
-        "postal_code": "6789",
-        "town_name": "Sampletown",
+        "street-name": "678 Example Street",
+        "postal-code": "6789",
+        "town-name": "Sampletown",
         "country": "US"
     },
     "lei": "506700GE1G29325QX363"

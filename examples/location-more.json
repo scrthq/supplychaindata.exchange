@@ -8,9 +8,9 @@
     "longitude": "0.0"
   },
   "address": {
-    "street_name": "123 Example Street",
-    "postal_code": "12345",
-    "town_name": "Sampletown",
+    "street-name": "123 Example Street",
+    "postal-code": "12345",
+    "town-name": "Sampletown",
     "country": "US"
   },
   "processing-types": [
