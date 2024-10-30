@@ -59,6 +59,8 @@ The Organization component of the SCDEX core schema is meant to identify the rel
 |----------------------|-------------------------------------------------|-----------------------|
 | `guid`               | Unique identifier for the organization          | Required              |
 | `organization-type`  | Type of organization (e.g., supplier, retailer) | Required              |
+| `name`         | Name of the organization. | Optional             |
+| `address`      | the address of the organization in ISO 20022 | Optional             |
 | `organizational-identifier`  | One of the accepted organizational-identifiers is required. (i.e., Legal Entity Identifier's LEI or GS1's GLN, etc.)  | Optional |
 
 > [!NOTE]
