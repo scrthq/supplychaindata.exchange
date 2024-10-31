@@ -35,6 +35,7 @@ Optional fields are helpful for cross referencing or appending data attributes o
 | `guid`             | Unique identifier for the location data            | Required              |
 | `location-type`    | Type of location (e.g., factory, warehouse, farm)  | Required              |
 | `location-identifier` | One of the accepted location-identifiers is required. (i.e. Open Supply Hub’s unique location identifier (OSID), Varda Agriculture’s Global Field ID for boundaries, etc.)| Required  |
+| `language`      | Language code in ISO 639-1 or ISO 639-2 format (e.g., 'en' for English, 'fr' for French).         | Optional             |
 | `coordinates`      | Latitude and longitude of the location in ISO 6709         | Optional             |
 | `name`         | Name of the location, if available. | Optional             |
 | `address`      | the address of the location in ISO 20022 | Optional             |
@@ -59,9 +60,10 @@ The Organization component of the SCDEX core schema is meant to identify the rel
 |----------------------|-------------------------------------------------|-----------------------|
 | `guid`               | Unique identifier for the organization          | Required              |
 | `organization-type`  | Type of organization (e.g., supplier, retailer) | Required              |
+| `language`      | Language code in ISO 639-1 or ISO 639-2 format (e.g., 'en' for English, 'fr' for French).         | Optional             |
 | `name`         | Name of the organization. | Optional             |
 | `address`      | the address of the organization in ISO 20022 | Optional             |
-| `organizational-identifier`  | One of the accepted organizational-identifiers is required. (i.e., Legal Entity Identifier's LEI or GS1's GLN, etc.)  | Optional |
+| `organizational-identifier`  | One of the accepted organizational-identifiers is required. (i.e., Legal Entity Identifier's LEI or GS1's GLN, etc.)  | Required |
 
 > [!NOTE]
 > A more complete organizational-identifier list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).

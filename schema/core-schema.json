@@ -16,7 +16,7 @@
                     },
                     "language": {
                         "type": "string",
-                        "description": "Language code for the location or organization in ISO 639-1 or ISO 639-2 format",
+                        "description": "Language code in ISO 639-1 or ISO 639-2 format",
                         "pattern": "^[a-z]{2,3}$"
                     },
                     "location-type": {
@@ -149,7 +149,7 @@
                     },
                     "language": {
                         "type": "string",
-                        "description": "Language code for the location or organization in ISO 639-1 or ISO 639-2 format",
+                        "description": "Language code in ISO 639-1 or ISO 639-2 format",
                         "pattern": "^[a-z]{2,3}$"
                     },
                     "organization-type": {
