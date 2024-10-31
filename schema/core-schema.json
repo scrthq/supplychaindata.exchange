@@ -47,13 +47,13 @@
                         "type": "object",
                         "description": "Geographic coordinates with latitude and longitude in ISO 6709 format",
                         "properties": {
-                            "lat": {
+                            "latitude": {
                                 "type": "number",
                                 "description": "Latitude of the location, ranging from -90 to 90",
                                 "minimum": -90,
                                 "maximum": 90
                             },
-                            "lng": {
+                            "longitude": {
                                 "type": "number",
                                 "description": "Longitude of the location, ranging from -180 to 180",
                                 "minimum": -180,
