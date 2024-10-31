@@ -1,6 +1,12 @@
 {
-"guid": "d9f233d8-e306-45e7-92e5-db604e4ad79a",
-"type": "company",
-"lei":"506700GE1G29325QX363",
-"name":"Null Inc"
+    "guid": "d9f233d8-e306-45e7-92e5-db604e4ad79a",
+    "type": "company",
+    "name": "Null Inc",
+    "address": {
+        "street-name": "678 Example Street",
+        "postal-code": "6789",
+        "town-name": "Sampletown",
+        "country": "US"
+    },
+    "lei": "506700GE1G29325QX363"
 }
