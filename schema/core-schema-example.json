@@ -41,19 +41,19 @@
       "guid": "91582fdd-6f72-47cf-a113-f68fe4e74865",
       "organization-type": "retailer",
       "language": "en",
-      "organization-identifier": "lei:3538002LJMRZ83SU0B85"
+      "organizational-identifier": "lei:3538002LJMRZ83SU0B85"
     },
     {
       "guid": "91582fdd-6f72-47cf-a113-f68fe4e74866",
       "organization-type": "retailer",
       "language": "en",
-      "organization-identifier": "lei:353800ZCXKHDPY0N5218"
+      "organizational-identifier": "lei:353800ZCXKHDPY0N5218"
     },
     {
       "guid": "91582fdd-6f72-47cf-a113-f68fe4e74867",
       "organization-type": "retailer",
       "language": "en",
-      "organization-identifier": "lei:549300D9GZ4BMLDW5T40"
+      "organizational-identifier": "lei:549300D9GZ4BMLDW5T40"
     }
   ],
   "affiliations": [
