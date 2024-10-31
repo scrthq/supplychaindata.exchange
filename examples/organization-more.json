@@ -1,6 +1,6 @@
 {
     "guid": "d9f233d8-e306-45e7-92e5-db604e4ad79a",
-    "type": "company",
+    "organization-type": "supplier",
     "name": "Null Inc",
     "address": {
         "street-name": "678 Example Street",
@@ -8,5 +8,5 @@
         "town-name": "Sampletown",
         "country": "US"
     },
-    "lei": "506700GE1G29325QX363"
+    "organizational-identifier": "lei:506700GE1G29325QX363"
 }
