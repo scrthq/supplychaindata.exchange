@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/opensupplyhub/supplychaindata.exchange/refs/heads/main/schema/core-schema.json",
+  "$schema": "../../../schema/core-schema.json",
   "locations": [
     {
       "guid": "82d39ac8-1a12-4801-835a-85d319927548",
