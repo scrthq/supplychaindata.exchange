@@ -3,6 +3,7 @@
     "title": "SC-DEX Core Schema",
     "description": "Schema for structured, machine-readable supply chain data.",
     "type": "object",
+    "additionalProperties": true,
     "properties": {
         "locations": {
             "type": "array",
@@ -29,13 +30,13 @@
                             {
                                 "type": "string",
                                 "pattern": "^(osid|gfid):[A-Za-z0-9]+$",
-                                "description": "A single location identifier string with a specific prefix (e.g., 'osid:' or 'gf-id:')"
+                                "description": "A single location identifier string with a specific prefix (e.g., 'osid:' or 'gfid:')"
                             },
                             {
                                 "type": "array",
                                 "items": {
                                     "type": "string",
-                                    "pattern": "^(osid|gf-id):[A-Za-z0-9]+$",
+                                    "pattern": "^(osid|gfid):[A-Za-z0-9]+$",
                                     "description": "Each item in the array must be a location identifier string with a specific prefix"
                                 },
                                 "minItems": 1,
