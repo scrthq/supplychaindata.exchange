@@ -4,7 +4,7 @@ The SC-DEX schema can support different supply chain arrangements, including mul
 
 - The JSON Schema of the core SC-DEX can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/schema/core-schema.json)
 - The core schema description can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/schema/schema.md)
-- An SC-DEX Example can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/schema/core-schema-example.json)
+- An SC-DEX Example can be found [here](https://github.com/opensupplyhub/supplychaindata.exchange/blob/main/examples/full/valid/core-schema-example.json)
 
 Below are three examples of entity-relationship diagrams showing how locations, organizations, and affiliations interact in various supply chain scenarios.
 
