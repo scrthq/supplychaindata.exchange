@@ -26,10 +26,6 @@ jobs:
   test-scdex-schema:
     name: Run SCDEX Schema Tests
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version:
-          - '3.12'
     permissions:
       contents: read
       pull-requests: write
@@ -40,7 +36,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: 3.12
       - name: Install Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python3 -
