@@ -3,7 +3,6 @@
     "title": "SC-DEX Core Schema",
     "description": "Schema for structured, machine-readable supply chain data.",
     "type": "object",
-    "additionalProperties": true,
     "properties": {
         "locations": {
             "type": "array",
