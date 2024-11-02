@@ -62,7 +62,7 @@ jobs:
       #     fail-on-error: true
 
       - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v4
+        uses: mikepenz/action-junit-report@v5.0.0-b01
         if: ${{ !cancelled() }}
         with:
           report_paths: '**/junit.xml'
