@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksupplychaindata_exchange=self.webpackChunksupplychaindata_exchange||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/supplychaindata.exchange/blog","blogTitle":"Blog","authorsListPath":"/supplychaindata.exchange/blog/authors"}')}}]);
