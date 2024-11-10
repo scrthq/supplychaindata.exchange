@@ -122,25 +122,29 @@ const ExpertInterviewGrid = () => {
           justifyContent: "space-between",
         }}
       >
-        <button
+        <Link
+          to="https://forms.gle/ZQkGYfaWxNohArdH7"
           style={{
             padding: "8px 24px",
             borderRadius: "9999px",
             border: "1px solid #e5e7eb",
+            textDecoration: "none",
           }}
         >
           Nominate an Expert →
-        </button>
-        <button
+        </Link>
+        <Link
+          to="https://open.spotify.com/show/6Wwaw6Y0FqpoAcJmnvKzf1"
           style={{
             padding: "8px 24px",
             borderRadius: "9999px",
             backgroundColor: "#DD4B39",
             color: "white",
+            textDecoration: "none",
           }}
         >
           Listen to the series →
-        </button>
+        </Link>
       </div>
     </div>
   );
