@@ -67,42 +67,26 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
-/* Custom styles for the hero section */
-.hero {
-  background-color: var(--ifm-background-color);
-  padding: 4rem 0;
+/* Hero section specific styles */
+.hero-background {
+  background-color: #FAF4F0;
 }
 
-.hero__title {
-  font-size: 3rem;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
+.hero-title {
+  font-family: var(--ifm-font-family-base);
+  color: var(--ifm-color-primary-darkest);
 }
 
-.hero__subtitle {
-  font-size: 1.5rem;
-  color: var(--ifm-color-primary);
-}
-
-/* Custom navbar styles */
-.navbar {
-  box-shadow: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* Custom button styles */
-.button {
-  border-radius: 24px;
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
+.hero-button {
   transition: all 0.2s ease;
 }
 
-.button--primary {
-  background-color: var(--ifm-color-primary);
-  color: white;
+/* .hero-button:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
 }
 
-.button--primary:hover {
-  background-color: var(--ifm-color-primary-dark);
-}
+.hero-images img {
+  object-fit: contain;
+  height: auto;
+} */
