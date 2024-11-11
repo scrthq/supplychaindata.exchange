@@ -44,8 +44,8 @@ function SpotifyEmbed({ id, guest, include }) {
   );
 };
 
-const ExpertInterviewGrid = () => {
-  const gridItems = [
+function ExpertInterviewGrid() {
+  const spotifyEpisodes = [
     {
       id: "3eEU531s6T64rheAjMEHME",
       guest: "Franzisca Markschläger, GIZ",
@@ -95,7 +95,7 @@ const ExpertInterviewGrid = () => {
           marginBottom: "32px",
         }}
       >
-        {gridItems.map((episode) => (
+        {spotifyEpisodes.map((episode) => (
           <SpotifyEmbed
             key={episode.id}
             id={episode.id}
