@@ -49,7 +49,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/opensupplyhub/supplychaindata.exchange/tree/main/website/",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -93,8 +93,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Specification",
+              to: "/docs/spec",
             },
           ],
         },
@@ -102,16 +102,16 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Sign the Open Letter of Commitment",
+              href: "https://docs.google.com/document/d/1jRSpEStuhcdS_8SxBHLoW7PWaYlCTEtC1MLYJf_5avo/edit?tab=t.0",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Contribute to the Technical Draft",
+              href: "https://github.com/opensupplyhub/supplychaindata.exchange",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "Join the Slack",
+              href: "https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g",
             },
           ],
         },
@@ -124,7 +124,15 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/opensupplyhub/supplychaindata.exchange",
+            },
+            {
+              label: "Schedule Informational Call",
+              href: "https://calendar.app.google/UYyr5qPvNd3RLn5K6",
+            },
+            {
+              label: "Calendar of Working Sessions",
+              href: "https://calendar.google.com/calendar/u/0?cid=Y19mZDRkNWE3OTZlZDlhYTEwOTEwYWYxMGZhYWVkMDkyNDdjY2FjNzEzZWY5Yjc3Y2Y0ZDc4NzRkYjIwMzA0Mzk4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
             },
           ],
         },
