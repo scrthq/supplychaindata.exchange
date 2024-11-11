@@ -29,17 +29,6 @@ function HomepageHeader() {
   );
 }
 
-function SpotifyFeatures() {
-  return (
-    <div>
-      <iframe
-        style={{ height: "100%", width: "100%" }}
-        src="https://open.spotify.com/embed/episode/3eEU531s6T64rheAjMEHME?theme=1"
-      ></iframe>
-    </div>
-  );
-}
-
 function SpotifyEmbed({ id, guest, include }) {
   if (!include) {
     return null;
