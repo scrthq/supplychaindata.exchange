@@ -93,8 +93,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Specification",
-              to: "/docs/spec",
+              label: "Home",
+              to: "/docs",
             },
           ],
         },
