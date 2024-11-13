@@ -2,11 +2,12 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import HomepageFeatures from "@site/src/components/AboutComponent";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
 import SCDEXHeroComponent from "../components/SCDEXHeroComponent";
+import UpcomingRoadmapComponent from "../components/UpcomingRoadmapComponent";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -20,9 +21,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 10min ⏱️
+            to="https://blog.opensupplyhub.org/2024/07/24/introducing-the-open-data-exchange-standard-for-global-supply-chains/">
+            Read More
           </Link>
         </div>
       </div>
@@ -149,9 +149,10 @@ export default function Home(): JSX.Element {
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
         {/* <SCDEXHeroComponent /> */}
+        <HomepageFeatures />
         <ExpertInterviewGrid />
+        {/* <UpcomingRoadmapComponent /> */}
       </main>
     </Layout>
   );
