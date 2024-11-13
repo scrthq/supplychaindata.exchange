@@ -13,7 +13,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  tutorialSidebar: [
+  docSidebar: [
     {
       type: "doc",
       label: "Home",
@@ -69,7 +69,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Getting Started",
-      items: ['Getting Started/index'],
+      items: ["Getting Started/index"],
     },
   ],
 };
