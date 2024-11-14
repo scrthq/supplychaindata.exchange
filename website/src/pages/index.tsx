@@ -85,9 +85,21 @@ function ExpertInterviewGrid() {
         maxWidth: "1320px",
         margin: "0 auto",
         padding: "0 32px",
+        marginTop: "32px",
         marginBottom: "32px",
       }}
     >
+        <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", marginBottom: "16px"}}>
+            <div className="text--left">
+                <Heading as="h2">
+                    ONGOING RESEARCH<br /><h1 style={{fontWeight: "bolder"}}>Expert Interview Series</h1>
+                </Heading>
+            </div>
+            <div className="text--left" style={{maxWidth: "800px"}}>
+                We're conducting expert interviews with stakeholders across the data ecosystem—and we'd 
+                love to hear who else you'd like to hear from.
+            </div>
+        </div>
       <div
         style={{
           display: "grid",
@@ -152,7 +164,7 @@ export default function Home(): JSX.Element {
         {/* <SCDEXHeroComponent /> */}
         <HomepageFeatures />
         <ExpertInterviewGrid />
-        {/* <UpcomingRoadmapComponent /> */}
+        <UpcomingRoadmapComponent />
       </main>
     </Layout>
   );

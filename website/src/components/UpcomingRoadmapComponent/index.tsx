@@ -1,5 +1,8 @@
 import Link from '@docusaurus/Link';
+import Heading from '@theme/Heading'
 import styles from './styles.module.css'
+import clsx from 'clsx';
+import Head from '@docusaurus/Head';
 
 type RoadmapItem = {
     title: string;
@@ -21,7 +24,7 @@ const RoadmapList : RoadmapItem[] = [
         url: "https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform",
     },
     {
-        title: "Q4 2024 - Q1 2025 +",
+        title: "Q4 2024 - Q1 2025+",
         description: (
             <>
                 We're also looking for partners to pilot the core schema and build extensions with. Please send shuya@opensupplyhub.org 
@@ -57,30 +60,43 @@ const RoadmapList : RoadmapItem[] = [
 
 function Roadmap({title, description, prompt, url} : RoadmapItem) {
     return (
-        <div>
-            <div>
-                {title}
-            </div>
-            <div>
-                {description}
-            </div>
-            <Link
-                className=""
-                to={url}>
+        <div className="col col--3" style={{padding: "8px"}}>
+            <div className={clsx(`shadow--md ${styles.roadmapItem}`)}>
+                <div className='text--center'>
+                    <Heading as='h3'>{title}</Heading>
+                </div>
+                <div className='text--left padding-horiz--md'>
+                    <p>{description}</p>
+                </div>
+                <Link
+                    className={clsx("button button--primary button--lg")}
+                    style={{ backgroundColor : "black", borderColor : "black", fontWeight : "normal"}}
+                    to={url}>
                     {prompt}
-            </Link>
+                </Link>
+            </div>
         </div>
     );
 }
 
-export default function UpcomingRoadmapComponent() {
+export default function UpcomingRoadmapComponent() : JSX.Element {
     return (
-        <div className='container'>
-            {
-                RoadmapList.map((props, idx) => (
-                    <Roadmap key={idx} {...props}/>
-                ))
-            }
-        </div>
+        <section className={styles.roadmapItems}>
+            <div className='text--center'>
+                <Heading as='h1'>
+                    Our Upcoming Roadmap
+                </Heading>
+            </div>
+            <div className='container'>
+                <div className='row'>
+                    {
+                        RoadmapList.map((props, idx) => (
+                            <Roadmap key={idx} {...props}/>
+                        ))
+                    }
+                </div>
+
+            </div>
+        </section>
     );
 }
