@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - '*'
+    paths:
+      - 'website/**'
+      - '.github/workflows/docs.yml'
+  pull_request:
+    branches:
+      - '*'
+    paths:
+      - 'website/**'
+      - '.github/workflows/docs.yml'
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+          cache-dependency-path: ./website/yarn.lock
+      - name: Install dependencies
+        run: cd website && yarn install --frozen-lockfile
+      - name: Build website
+        run: cd website && yarn build
+      - name: Deploy to GitHub Pages
+        ### TODO: Uncomment the following line and remove this line before merging to upstream
+        # if: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./website/build
+          ### TODO: Uncomment the following line and remove this line when ready to repoint DNS for the custom domain
+          # cname: supplychaindata.exchange

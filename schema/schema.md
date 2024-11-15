@@ -24,9 +24,9 @@ The following table outlines the key components of the SC-DEX schema:
 
 ### **Locations** represent physical places, such as factories, warehouses, farms, etc.
 
-The Location component of the SC DEX core schema is meant to identify where a supply chains location is physically, and the name, coordinates and/or address properties are optional fields with the intention that this information is already captured within the location-identifiers property. This is meant to build the SCDEX data ecosystem on top of existing supply chain data standards and map the relationships between already established reporting formats, as well as allow for linking different types of geospatial data, for example a point location of a factory (os-id or gln) with a region (field-id). A list of accepted and recommented location-identifiers is in progress.
+The Location component of the SC-DEX core schema is meant to identify where a supply chains location is physically, and the name, coordinates and/or address properties are optional fields with the intention that this information is already captured within the location-identifiers property. This is meant to build the SCDEX data ecosystem on top of existing supply chain data standards and map the relationships between already established reporting formats, as well as allow for linking different types of geospatial data, for example a point location of a factory (os-id or gln) with a region (field-id). A list of accepted and recommented location-identifiers is in progress.
 
-Optional fields are helpful for cross referencing or appending data attributes onto accepted location-identifiers, but the critical information is already covered by the location-id. 
+Optional fields are helpful for cross referencing or appending data attributes onto accepted location-identifiers, but the critical information is already covered by the location-id.
 
 ### **Location Fields Table**
 
@@ -104,4 +104,3 @@ For more relationship types and examples, refer to the [Wikirate Relationship Ty
 
 > [!NOTE]
 > A more complete relationships type list is in progress and will be published in Q4 of 2024. Please submit to this list by emailing shuya@opensupplyhub.org or through [this form submission](https://docs.google.com/forms/d/e/1FAIpQLSf5iJlmyyYj1QY2tH6IUmVTZL4samFfFglrHXyIh6BDKDc-Qg/viewform?usp=sf_link).
-

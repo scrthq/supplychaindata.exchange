@@ -13,10 +13,10 @@ SC-DEX is currently in an **open public review phase** from October 31, 2024 onw
 
 ## **Key Features**
 
-By design, the core data schema of the SC DEX is minimal, as this allows for data contributions from all stakeholders, eventually including data inputs from areas that may be in low-connectivity or through mobile device access. Extensions are intended to be custom built and share enough data identifiers with the core data schema to enable easy bridging. The core data schema will always be kept openly accessible and governed by all contributors of the data exchange standard, while extensions can be created and maintained by anyone.
+By design, the core data schema of the SC-DEX is minimal, as this allows for data contributions from all stakeholders, eventually including data inputs from areas that may be in low-connectivity or through mobile device access. Extensions are intended to be custom built and share enough data identifiers with the core data schema to enable easy bridging. The core data schema will always be kept openly accessible and governed by all contributors of the data exchange standard, while extensions can be created and maintained by anyone.
 
 There are three main features that the supply chain data exchange standard aims to do. 1) set a core data exchange standard with enough minimum viable data identifiers for identifying a production facility and its relationship to other production facilities or organizations 2) enable bridging to extensions custom built with organizations and sector data holders and stewards towards specific use cases and 3) create a foundational protocol layer for supply chains related data exchange.
-  
+
 - **Core Schema**: SC-DEX provides a clear, JSON-based structure for supply chain data, ensuring consistency across locations and organizational affiliations.
     - Learn more about the [Core Schema](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/1.-Core-Schema).
 - **Extensions**: Extensions allow for additional data fields, tailoring the schema for specific use cases, such as **Responsible Recruiting** and **Sea Level Rise Risk**.
