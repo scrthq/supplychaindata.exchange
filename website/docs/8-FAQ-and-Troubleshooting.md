@@ -2,18 +2,18 @@
 
 This page provides answers to frequently asked questions about the SC-DEX initiative and its governance, technical standards, and general information. For further assistance, visit the **Troubleshooting** section below.
 
-<!--
-    IMPORTANT: The spacing between the questions and answers is intentional to ensure
-               proper formatting on the website. If the line breaks are not kept, the
-               question is is hidden within the expanded section instead of being
-               visible as the summary text.
- -->
-
 ---
 
 ## **Frequently Asked Questions**
 
 ### **Governance**
+
+<!--
+    IMPORTANT: The spacing between the questions and answers is intentional to ensure
+               proper formatting on the website. If the line breaks are not kept, the
+               question is is hidden within the expanded section instead of being
+               visible as the summary text.
+-->
 
 <details>
 
@@ -41,6 +41,13 @@ SC-DEX emphasizes open and accessible data standards that are free to use and qu
 
 ### **Technical Standard**
 
+<!--
+    IMPORTANT: The spacing between the questions and answers is intentional to ensure
+               proper formatting on the website. If the line breaks are not kept, the
+               question is is hidden within the expanded section instead of being
+               visible as the summary text.
+-->
+
 <details>
 
 <summary>1. How does SC-DEX ensure compatibility with other supply chain data standards?</summary>
@@ -66,6 +73,13 @@ The core schema is machine-readable and designed in **JSON** format. Extensions 
 </details>
 
 ### **General**
+
+<!--
+    IMPORTANT: The spacing between the questions and answers is intentional to ensure
+               proper formatting on the website. If the line breaks are not kept, the
+               question is is hidden within the expanded section instead of being
+               visible as the summary text.
+-->
 
 <details>
 
