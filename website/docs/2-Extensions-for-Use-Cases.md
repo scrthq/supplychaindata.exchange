@@ -4,9 +4,9 @@ The SC-DEX Core Schema establishes a robust yet flexible foundation by providing
 
 This modular approach supports custom extensions while maintaining the simplicity and clarity necessary for easy tool development, ensuring the data remains accessible for various stakeholders, from technical implementers to on-the-ground users. The result is a powerful framework adaptable to evolving industry needs, which can scale as new requirements arise. These extensions enable SC-DEX users to expand the data model with specific attributes, making it easier to meet unique use cases and industry requirements. We work with research partners, data services providers, and community contributors to develop these extensions. Events such as hackathons and working groups also support ongoing development, helping to create robust solutions.
 
-Below are examples of use cases and their associated extensions, designed to address real-world challenges across diverse sectors. Official extensions are community-reviewed and added to the directory of approved extensions, while experimental extensions are housed in a separate directory for feedback and ongoing development. For more on this process, refer to the [Governance Model](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/3.-Governance-Model) section on extension approvals.
+Below are examples of use cases and their associated extensions, designed to address real-world challenges across diverse sectors. Official extensions are community-reviewed and added to the directory of approved extensions, while experimental extensions are housed in a separate directory for feedback and ongoing development. For more on this process, refer to the [Governance Model](./3-Governance-Model.md) section on extension approvals.
 
-To propose a new use case or extension, reach out to us via [Slack](https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g ), schedule a [1:1 meeting](https://calendar.app.google/UYyr5qPvNd3RLn5K6), or contact us at [shuya@opensupplyhub.org](mailto:shuya@opensupplyhub.org). For implementation guidance, explore the [Implementation Tutorials](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/7.-Implementation-Tutorials) and join our growing community in creating a stronger, more adaptable SC-DEX ecosystem.
+To propose a new use case or extension, reach out to us via [Slack](https://join.slack.com/t/supplychainexchange/shared_invite/zt-2h2f0zvhe-J9ksFAHHtmYCs_I2_Nlr0g ), schedule a [1:1 meeting](https://calendar.app.google/UYyr5qPvNd3RLn5K6), or contact us at [shuya@opensupplyhub.org](mailto:shuya@opensupplyhub.org). For implementation guidance, explore the [Implementation Tutorials](./7-Implementation-Tutorials.md) and join our growing community in creating a stronger, more adaptable SC-DEX ecosystem.
 
 ---
 
@@ -150,7 +150,7 @@ To propose a new use case or extension, reach out to us via [Slack](https://join
 ### **Experimental and Official Extensions**
 A directory of experimental extensions is in progress for feedback and contributions.
 
-For detailed setup instructions, please see the [Implementation Tutorials - Extensions](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/7.-Implementation-Tutorials) section.
+For detailed setup instructions, please see the [Implementation Tutorials - Extensions](./7-Implementation-Tutorials.md) section.
 
 ### **Partner with Us**
 Interested in collaborating on SC-DEX extensions or use case research? Join us for hackathons, participate in working groups, or reach out directly to discuss new ideas and partnerships!

@@ -46,11 +46,11 @@ The SC-DEX Open Letter of Commitment is currently open for public review. We wel
 
 ## **Get Involved**
 
-To join the signatory list and commit to SC-DEX, please email shuya@opensupplyhub.org with your intent to commit. 
+To join the signatory list and commit to SC-DEX, please email shuya@opensupplyhub.org with your intent to commit.
 
 For more information on the development process, governance model, and technical standard, see the links below:
-- [Development Process](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/4.-Development-Process)
-- [Governance Model](https://github.com/opensupplyhub/supplychaindata.exchange/wiki/3.-Governance-Model)
+- [Development Process](./4-Development-Process.md)
+- [Governance Model](./3-Governance-Model.md)
 
 ---
 **Together, we can build a more efficient and interoperable supply chain data ecosystem.**
