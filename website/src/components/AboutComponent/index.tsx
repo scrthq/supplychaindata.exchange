@@ -99,6 +99,7 @@ function Feature({title, Svg, description, url, linkPrompt}: WorkstreamItem) {
 				</div>
 				<Link
 					className="button button--primary button--lg"
+                    style={{color: "white"}}
 					to={url}>
 					{linkPrompt}
 				</Link>
@@ -110,7 +111,7 @@ function Feature({title, Svg, description, url, linkPrompt}: WorkstreamItem) {
 export default function AboutComponent(): JSX.Element {
   return (
     <section className={styles.features}>
-        <Heading as="h1" className='text--left padding-horiz--lg'>
+        <Heading as="h1" className='text--center padding-horiz--lg'>
             In order to co-create and maintain an open exchange standard, we've activated these workstreams:
         </Heading>
 		<div className="container">

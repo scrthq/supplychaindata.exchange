@@ -70,7 +70,7 @@ function Roadmap({title, description, prompt, url} : RoadmapItem) {
                 </div>
                 <Link
                     className={clsx("button button--primary button--lg")}
-                    style={{ backgroundColor : "black", borderColor : "black", fontWeight : "normal"}}
+                    style={{ backgroundColor : "black", borderColor : "black", fontWeight : "normal", color: "white"}}
                     to={url}>
                     {prompt}
                 </Link>

@@ -96,8 +96,10 @@ function ExpertInterviewGrid() {
                 </Heading>
             </div>
             <div className="text--left" style={{maxWidth: "800px"}}>
-                We're conducting expert interviews with stakeholders across the data ecosystem—and we'd 
-                love to hear who else you'd like to hear from.
+                <p>
+                    We're conducting expert interviews with stakeholders across the data ecosystem—and we'd 
+                    love to hear who else you'd like to hear from.
+                </p>
             </div>
         </div>
       <div
